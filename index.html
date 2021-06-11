@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focus - Landing page for your app with focus</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/9da41c570d5a221cb2486d78769a076d?family=Neue+Helvetica"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Feature section -->
+    <header class="header">
+      <div class="header__content">
+        <img src="./media/logo.svg" class="header__logo" alt="Focus logo" />
+        <h1 class="header__title">A landing page for your app with focus</h1>
+        <a href="#feature-section" class="header__arrow">
+          <img src="./media/arrow.svg" alt="arrow" />
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="feature-section" id="feature-section">
+        <div class="feature-section__img-wrapper">
+          <img
+            src="./media/iphone.png"
+            class="feature-section__img"
+            alt="iphone"
+          />
+          <div class="feature-section-dots">
+            <span class="feature-section-dots__dot" data-to="feature-1"
+              ><span data-to="feature-1"></span
+            ></span>
+            <span class="feature-section-dots__dot" data-to="feature-2"
+              ><span data-to="feature-2"></span
+            ></span>
+            <span class="feature-section-dots__dot" data-to="feature-3"
+              ><span data-to="feature-3"></span
+            ></span>
+            <span class="feature-section-dots__dot" data-to="feature-4"
+              ><span data-to="feature-4"></span
+            ></span>
+          </div>
+        </div>
+
+        <div class="feature-section-grid__item left-col">
+          <div class="feature-section-item" id="feature-1">
+            <h2 class="title">Great Feature</h2>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium cumque doloremque illum atque maiores rem amet
+              praesentium eveniet eos nulla.
+            </p>
+          </div>
+
+          <div class="feature-section-item" id="feature-2">
+            <h2 class="title">Another Great Feature</h2>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium cumque doloremque illum atque maiores rem amet
+              praesentium eveniet eos nulla.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature-section-grid__item right-col" id="feature-3">
+          <div class="feature-section-item">
+            <h2 class="title">Great Feature</h2>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium cumque doloremque illum atque maiores rem amet
+              praesentium eveniet eos nulla.
+            </p>
+          </div>
+
+          <div class="feature-section-item" id="feature-4">
+            <h2 class="title">Another great feature</h2>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium cumque doloremque illum atque maiores rem amet
+              praesentium eveniet eos nulla.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Get app section -->
+      <section class="get-app-section">
+        <div class="content-wrapper">
+          <div>
+            <h1 class="title">Get the app today!</h1>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga esse
+              facere culpa in distinctio rem deleniti consectetur laudantium,
+              ipsam quod aliquid molestiae quia, at sed sit qui eum possimus
+              magnam excepturi? Corporis autem, incidunt, aut quibusdam aperiam
+              dicta vero maxime numquam labore cum, laborum vitae quia saepe
+              tempore. Nemo, animi!
+            </p>
+            <ul class="icons-list">
+              <li class="icons-list__item">
+                <a href="/" class="icons-list__link">
+                  <img
+                    src="./media/apple-icon.svg"
+                    class="icons-list__img"
+                    alt="Download for IOS"
+                  />
+                </a>
+              </li>
+              <li class="icons-list__item">
+                <a href="/" class="icons-list__link">
+                  <img
+                    src="./media/android-icon.svg"
+                    class="icons-list__img"
+                    alt="Download for Android"
+                  />
+                </a>
+              </li>
+              <li class="icons-list__item">
+                <a href="/" class="icons-list__link">
+                  <img
+                    src="./media/ms-icon.svg"
+                    class="icons-list__img"
+                    alt="Download for Windows"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <video
+              controls
+              class="get-app-section-video"
+              poster="./media/movie-poster.jpg"
+            >
+              <source src="./media/mountains.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <!-- Reccomend section -->
+      <section class="recommend-section section">
+        <h1 class="recommend-section__title">
+          "Focus is an app that is extremely useful. I would recommend it to
+          anyone"
+        </h1>
+        <p class="recommend-section__subtitle"><b>Kyle Turner</b>, Blogger</p>
+      </section>
+      <div class="avatars-grid">
+        <img
+          class="avatars-grid__img"
+          src="./media/people.jpg"
+          alt="Our clients"
+        />
+      </div>
+
+      <!-- Contact section -->
+      <section class="contact-section section">
+        <h1 class="contact-section__title title">Say Hi & Get in Touch</h1>
+        <p class="paragraph">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam,
+          perspiciatis?
+        </p>
+        <ul class="icons-list">
+          <li class="icons-list__item">
+            <a href="/" class="icons-list__link">
+              <img
+                src="/media/social-icons/icon-7.svg"
+                class="icons-list__img"
+                alt=""
+              />
+            </a>
+          </li>
+          <li class="icons-list__item">
+            <a href="/" class="icons-list__link">
+              <img
+                src="/media/social-icons/icon-4.svg"
+                class="icons-list__img"
+                alt=""
+              />
+            </a>
+          </li>
+          <li class="icons-list__item">
+            <a href="/" class="icons-list__link">
+              <img
+                src="/media/social-icons/icon-5.svg"
+                class="icons-list__img"
+                alt=""
+              />
+            </a>
+          </li>
+          <li class="icons-list__item">
+            <a href="/" class="icons-list__link">
+              <img
+                src="/media/social-icons/icon-6.svg"
+                class="icons-list__img"
+                alt=""
+              />
+            </a>
+          </li>
+          <li class="icons-list__item">
+            <a href="/" class="icons-list__link">
+              <img
+                src="/media/social-icons/icon-7.svg"
+                class="icons-list__img"
+                alt=""
+              />
+            </a>
+          </li>
+          <li class="icons-list__item">
+            <a href="/" class="icons-list__link">
+              <img
+                src="/media/social-icons/icon-5.svg"
+                class="icons-list__img"
+                alt=""
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <nav class="footer-nav">
+          <ul class="footer-nav-ul">
+            <li class="footer-nav-ul__li">
+              <a href="/" class="footer-nav-ul__link">Contact</a>
+            </li>
+            <li class="footer-nav-ul__li">
+              <a href="/" class="footer-nav-ul__link">Download</a>
+            </li>
+            <li class="footer-nav-ul__li">
+              <a href="/" class="footer-nav-ul__link">Press</a>
+            </li>
+            <li class="footer-nav-ul__li">
+              <a href="/" class="footer-nav-ul__link">Email</a>
+            </li>
+            <li class="footer-nav-ul__li">
+              <a href="/" class="footer-nav-ul__link">Support</a>
+            </li>
+            <li class="footer-nav-ul__li">
+              <a href="/" class="footer-nav-ul__link">Privacy Policy</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </main>
+
+    <!-- Scripts -->
+    <script src="./script.js"></script>
+  </body>
+</html>
